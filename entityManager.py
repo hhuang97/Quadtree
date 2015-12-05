@@ -1,5 +1,6 @@
 from quadtree import QuadTree
 
+# wrapper file for quadtree
 class Manager(QuadTree):
 
     def __init__(self, boundary_box, max_entities=10, maxdepth=20):
